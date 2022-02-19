@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN || SIGN-UP</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+   
+      <!-- about -->
+      <article class="about section">
+        <div class="btn-container">
+          <button class="about-btn log" data-id="login">Login</button>
+          <button class="about-btn sign" data-id="signup">Signup</button>
+          
+          <div class="about-content">
+            <!-- <h6 class="greetings"></h6> -->
+          <!-- LOGIN CONTENT -->
+          <form action="#" class="content login" id="login">
+              <div class="login-title">Login Here</div>
+              <div class="underline"></div>
+            <div class="img-container">
+              <img
+              src="./images/mobile_login.svg"
+                class="mobile-login"
+                alt=""
+              />
+            </div>
+              <!-- CONTENT CONTAINER -->
+            <div class="content-container username">
+              <div class="input-area">
+                <input type="text" placeholder="Username">
+                <i class="icon fas fa-user"></i>
+                <i class=" error error-icon fas fa-exclamation-circle"></i>
+              </div>
+              <div class="error error-text">Username can't be blank</div>
+              <!-- <div class="error error-text-count">password should be 5 to 12 character</div> -->
+            </div>
+            <!-- CONTENT CONTAINER -->
+            <div class="content-container password">
+              <div class="input-area">
+                <input type="password" placeholder="Password"/>
+                <i class="icon fas fa-lock"></i>
+                <i class="error error-icon fas fa-exclamation-circle"></i>
+              </div>
+              <div class="error error-text">Password can't be blank</div>
+            </div>
+                <!-- forgot password -->
+                <div class="forgot-password pass-text">
+                  <a href="#">Forgot password?</a>
+                </div>
+                <button class="btn submit" id="submit">login</button>
+              <!-- create account -->
+            <!-- </div> -->
+            <div class="create-account">
+              New here? <a href="#">Signup now</a>
+            </div>
+            <div class="color-1"></div>
+            <div class="color-2"></div> 
+          </form>
+            <!-- END OF LOGIN CONTENT -->
+          <!-- SIGNUP CONTENT -->
+           <form action="#" class="content signup" id="signup">
+            <div class="signup-title">Register Here</div>
+            <div class="underline"></div>
+            <div class="img-container">
+              <img src="./images/sign_up.svg" class="mobile-signup" alt="" />
+            </div>
+            <!-- CONTENT CONTAINER -->
+            <div class="content-container username">
+              <div class="input-area">
+                <input type="text" placeholder="Username">
+                <i class="icon fas fa-user"></i>
+                <i class=" error error-icon fas fa-exclamation-circle"></i>
+              </div>
+              <div class="error error-text">Username can't be blank</div>
+              <!-- <div class="error error-text-count">password should be 5 to 12 character</div> -->
+            </div>
+            <div class="content-container fullName">
+              <div class="input-area">
+              <input type="text" name="fullname" placeholder="Fullname">
+              <i class="icon fas fa-lock"></i>
+                <i class="error error-icon fas fa-exclamation-circle"></i>
+              </div>
+              <div class="error error-text">Fullname can't be blank</div>
+            </div>
+            <!-- CONTENT CONTAINER -->
+            <div class="content-container email">
+              <div class="input-area">
+                <input type="email" name="email" placeholder="Email" />
+                <i class="icon fas fa-lock"></i>
+                <i class="error error-icon fas fa-exclamation-circle"></i>
+              </div>
+              <div class="error error-text">Email can't be blank</div>
+            </div>
+            <!-- CONTENT CONTAINER -->
+            <div class="content-container password">
+              <div class="input-area">
+                <input type="password" name="password" placeholder="Password"/>
+                <i class="icon fas fa-lock"></i>
+                <i class="error error-icon fas fa-exclamation-circle"></i>
+              </div>
+              <div class="error error-text">Password can't be blank</div>
+            </div>
+            <button class="btn submit" id="signup-btn">signup</button>
+            <div class="color-1"></div>
+            <div class="color-2"></div> 
+            <div class="color-3"></div> 
+          </form>
+          <!-- END OF SIGNUP CONTENT -->
+          <!-- <div class="greetings">
+        <h1>Welcome</h1>
+      </div> -->
+        </div>
+      </article>
+    <script src="./script.js"></script>
+  </body>
+</html>
